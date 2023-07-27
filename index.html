@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tasneem's Cash Alchemy</title>
+    <!-- Linking the JavaScript file to handle the currency conversion functionality -->
+    <script src="script.js"></script>
+    
+    <!-- Linking the CSS file for styling the currency converter interface -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- The main header displaying the name of the currency converter -->
+    <img src="./images/icons8-currency-exchange-96-removebg-preview.png" alt="icon">
+    <h1> Tasneem's Cash Alchemy</h1>
+    
+    <!-- Input field for the user to enter the amount to be converted -->
+    <input type="number" id="amount" placeholder="Enter In Amount"/>
+    
+    <!-- Dropdown menu (select) to choose the target currency -->
+    <select id="currency">
+        <!-- Individual options representing different currencies -->
+        <option value="EUR">EUR</option>
+        <option value="IQD">IQD</option>
+        <option value="JOD">JOD</option>
+        <option value="GBP">GBP</option>
+        <option value="KWD">KWD</option>
+        <option value="YER">YER</option>
+        <option value="SAR">SAR</option>
+        <option value="TRY">TRY</option>
+    </select>
+    
+    <!-- Button to initiate the currency conversion process -->
+    <button id="convert" class="vanishIn">Convert Currency</button>
+    <br><br>
+    
+    <!-- Container to display the result of the conversion -->
+    <div id="result"></div>
+</body>
+</html>

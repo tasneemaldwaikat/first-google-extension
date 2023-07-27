@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3, 
+
+    "name": "Tasneem's Cash Alchemy", 
+
+    "description": "Convert currencies", 
+
+    "version": "1.0",
+
+    "action": {
+        "default_icon": "/images/money-bag.png",
+        "default_popup": "index.html" 
+}
+}
